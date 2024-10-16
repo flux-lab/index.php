@@ -1,0 +1,166 @@
+<?php
+function feedback404()
+{
+    header("HTTP/1.0 404 Not Found");
+    echo "<h1>404 Not Found</h1>";
+    echo "Error Not Found.";
+}
+if (isset($_GET['game'])) {
+    $filename = "list.txt";
+    $lines = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $target_string = strtolower($_GET['game']);
+    foreach ($lines as $item) {
+        if (strtolower($item) === $target_string) {
+            $BRAND = strtoupper($target_string);
+        }
+    }
+    if (isset($BRAND)) {
+        $BRANDS = $BRAND;
+        $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'https';
+        $fullUrl = $protocol . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+        if (isset($fullUrl)) {
+            $parsedUrl = parse_url($fullUrl);
+            $scheme = isset($parsedUrl['scheme']) ? $parsedUrl['scheme'] : '';
+            $host = isset($parsedUrl['host']) ? $parsedUrl['host'] : '';
+            $path = isset($parsedUrl['path']) ? $parsedUrl['path'] : '';
+            $query = isset($parsedUrl['query']) ? $parsedUrl['query'] : '';
+            $baseUrl = $scheme . "://" . $host . $path . '?' . $query;
+            $urlPath = $baseUrl;
+        } else {
+            echo "URL saat ini tidak didefinisikan.";
+        }
+    } else {
+        feedback404();
+        exit();
+    }
+} else {
+    feedback404();
+    exit();
+}
+/*
+*GANTI NAMA BRAND DENGAN INI
+<?php echo $BRANDS ?> 
+* GANTI URL PATH DENGAN INI
+<?php echo $urlPath ?>
+* SAMA GANTI REDIRECT LOGIN/REGISTER
+*/
+?>  
+<!-- SEONAGA -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo $BRANDS ?> menawarkan pengalaman bermain yang seru dan mendebarkan dengan berbagai pilihan permainan yang inovatif. Dengan grafis berkualitas tinggi, tema menarik, dan fitur bonus yang menggiurkan, setiap putaran memberikan kesempatan untuk memenangkan jackpot besar. Bergabunglah dan nikmati berbagai slot gacor yang dirancang khusus untuk memberikan pengalaman bermain yang menyenangkan dan menguntungkan.">
+    <meta name="keywords" content="slot terbaru, game slot, jackpot, bermain slot, slot online, slot gacor , Slot Online , Slot Gacor , Slot Terpercaya , Game Slot Terbaru , Slot Jackpot , Permainan Slot , Slot Mudah Menang , Situs Slot Resmi , Slot Kakek Zeus , Slot Gampang Menang , Slot Bonus , Fitur Slot , Taruhan Slot , Slot Terbaru 2024 , Slot Jackpot Besar , Review Slot , Review Slot , Slot Uang Asli ,  Slot dengan Putaran Gratis , Slot Gacor Hari Ini  , Cara Menang Slot , Daftar Slot Online , Tips Slot , Slot Menarik">
+    <title><?php echo $BRANDS ?></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="canonical" href="<?php echo $urlPath ?>"/>
+    <link rel="amphtml" href="https://pub-e66baa095ca948e1838fd1a8cd8e46ef.r2.dev/slotgacor.html"/>
+    <script>
+    document.addEventListener('keydown', function(event) {
+        // Mencegah Ctrl + U
+        if (event.ctrlKey && event.key === 'u') {
+            event.preventDefault();
+        }
+        // Mencegah F12
+        if (event.key === 'F12') {
+            event.preventDefault();
+        }
+    });
+</script>
+<style>
+        body {
+            background-color: #3498db; /* Menggunakan warna hex */
+            /* Atau menggunakan RGB */
+            /* background-color: rgb(52, 152, 219); */
+        }
+    </style>
+<style>
+        <link rel="stylesheet" href="style.css"> <!-- Tautan ke file CSS -->
+        body {
+            background-color: lightgreen; /* Mengatur warna latar belakang */
+        }
+        body {
+            background-color: lightcoral; /* Mengatur warna latar belakang */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><?php echo $BRANDS ?></h1>
+    <nav>
+        <ul>
+            <img src="https://res.cloudinary.com/dwvshzbc3/image/upload/v1728749010/scm_socm_kslxc-removebg-preview_kisrgd_fklf4t.png" alt="Slot Kakek Zeus - Game Slot Terbaru" />
+        </ul>
+    </nav>
+    <a href="https://alshifahoney.us/http_eror/"><img style="display: block; margin-left: auto; margin-right: auto;" title="SLOT GACOR" src="https://res.cloudinary.com/dwvshzbc3/image/upload/v1726950462/cvhdbcvj_gencxz.png" width="279" height="92" data-pagespeed-url-hash="1934530767" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+</header>
+
+<h2><?php echo $BRANDS ?> Geser Keatas Untuk Melihat Deskripsi Tentang Game Slot Terpopuler Dan Keunggulan - Keunggulan Yang Ada Disitus Ini , Serta Untuk Cara Bermain Ada Di bagian Paling Bawah🙏Klik Daftar Dan Login Sekarang Disitus Ini. Sekian Terima Kasih , Salam Hoki Selalu Boskuh 🙏  </h2>
+
+<main>
+    <section id="about">
+        <h2>Tentang Slot Terbaru</h2>
+        <p><?php echo $BRANDS ?>  menawarkan pengalaman bermain yang seru dan mendebarkan dengan berbagai pilihan permainan yang inovatif. Dengan grafis berkualitas tinggi, tema menarik, dan fitur bonus yang menggiurkan, setiap putaran memberikan kesempatan untuk memenangkan jackpot besar. Bergabunglah dan nikmati berbagai slot gacor yang dirancang khusus untuk memberikan pengalaman bermain yang menyenangkan dan menguntungkan.</p>
+    </section>
+
+    <section id="games">
+        <h2>Permainan Slot Populer</h2>
+        <ul>
+            <li>Slot Kakek Zeus : winrate kemenenangan mencapai 98.70%</li>
+            <li>Slot Gacor 2024</li>
+            <li>Slot Jackpot Terbesar</li>
+        </ul>
+    </section>
+
+    <h2>Keunggulan</h2>
+    <ul>
+    <li>Grafis dan Suara Berkualitas:Setiap permainan dirancang dengan visual yang menawan dan efek suara yang menghibur, menciptakan pengalaman bermain yang imersif.</li>
+    <li>Beragam Pilihan Permainan: Tersedia berbagai jenis permainan slot, dari tema klasik hingga modern, sehingga pemain dapat menemukan favorit mereka.</li>
+    <li>Fitur Bonus Menarik: Banyak slot dilengkapi dengan fitur bonus seperti putaran gratis, pengganda, dan mini-games yang dapat meningkatkan peluang menang.</li>
+    <li>Akses Mudah: Dapat dimainkan di berbagai perangkat, baik desktop maupun mobile, memungkinkan pemain untuk menikmati permainan kapan saja dan di mana saja.</li>
+    <li>Keamanan dan Kepercayaan: Platform yang digunakan untuk bermain slot terbaru selalu memprioritaskan keamanan data dan transaksi pemain.</li>
+
+</ul>
+</section>
+
+<h2>Cara Bermain</h2>
+    <ul>
+    <li>Pendaftaran Akun:Kunjungi situs slot terbaru dan daftar untuk membuat akun. Isi formulir pendaftaran dengan informasi yang diperlukan.</li>
+    <li>Setor Dana:Lakukan deposit ke akun Anda menggunakan metode pembayaran yang tersedia. Pastikan untuk memeriksa bonus deposit yang mungkin ditawarkan.</li>
+    <li>Pilih Permainan:Telusuri berbagai pilihan permainan slot dan pilih salah satu yang menarik bagi Anda.</li>
+    <li>Atur Taruhan:Sebelum memutar gulungan, atur jumlah taruhan sesuai keinginan Anda. Pastikan untuk membaca informasi permainan untuk memahami taruhan minimum dan maksimum.</li>
+    <li>Putar Gulungan:Klik tombol "Spin" untuk memutar gulungan. Jika simbol yang cocok muncul, Anda akan memenangkan hadiah sesuai dengan tabel pembayaran.</li>
+    <li>Fitur Bonus:Manfaatkan fitur bonus jika tersedia, seperti putaran gratis atau mini-games, untuk meningkatkan peluang menang.</li>
+    <li>Penarikan Kemenangan:Jika Anda berhasil meraih kemenangan, Anda dapat menarik dana Anda dengan mengikuti prosedur penarikan yang ditetapkan oleh situs.</li>
+
+</ul>
+</section>
+
+<h2>SLOT TERBAIK MASA KINI</h2>
+<ul>
+    <li>✅ Slot Gacor dengan Peluang Menang Tinggi</li>
+    <li>✅ Situs Terpercaya dan Aman</li>
+    <li>✅ Bonus dan Promosi Menarik</li>
+    <li>✅ Akses Mudah di Semua Perangkat</li>
+</ul>
+
+
+<h2>Bergabunglah dengan <?php echo $BRANDS ?> dan rasakan sensasi serta keseruan dari setiap putaran! Jika ada pertanyaan atau butuh informasi lebih lanjut, silakan beri tahu! Kami Dengan Cara Klik Tombol Daftar Yang Ada Dibawah ini</h2>
+
+
+
+    <section id="signup">
+        <a href="https://alshifahoney.us/http_eror/"><img style="display: block; margin-left: auto; margin-right: auto;" title="SLOT GACOR" src="https://res.cloudinary.com/dwvshzbc3/image/upload/v1726950462/cvhdbcvj_gencxz.png" width="279" height="92" data-pagespeed-url-hash="1934530767" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Slot Terbaru. Semua hak dilindungi.Slot berlisensi Terbaik Yang Langsung Diberikan Oleh Pihak PAGCOR Kepada Situs Terbaru Dan Terpercaya Serta Resmi Di Tahun 2024</p>
+</footer>
+</body>
+</html>
