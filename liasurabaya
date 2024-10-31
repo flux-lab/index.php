@@ -1,24 +1,11 @@
 
 
-<?php
-function check_user_agent($agent) {
-    return strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false;
-}
-
-$useragent_code = <<<'HTML'
 
 
-
-<!doctype html>
-<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"
-  data-authenticated-account>
+<!DOCTYPE HTML>
+<html xmlns:wormhole="http://www.w3.org/1999/xhtml" lang="id-ID">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- SEO766HI -->
-  <base href="https://dheenstudio.co.id/info/">
-<meta charset="utf-8" />
-<meta name="google-site-verification" content="CrQSyVfDuYtPBtPeOr-0YtD1fKTca6du483S5mhyWvQ" />
+<meta name="google-site-verification" content="VnUECuzU4QpC86XyY22hnPO86KjDDNK1KKA_0MepkLM" />
   <title>Nexus Slot # Situs Resmi Slot Cantik555 Server Nexus Engine Terbaru 2024</title>
   <meta name="description" content="Cantik555 merupakan situs slot gacor yang menyedikan pembayaran via Dana supaya mendapatkan mudah  maxwin! & Situs Slot terpercaya di 2024." />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
