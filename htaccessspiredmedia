@@ -1,0 +1,5 @@
+#Redirect 1 Domain Full
+
+RedirectMatch 301 (.*) https://www.oceanwise-project.eu/
+RedirectMatch 301 /(.*) https://www.oceanwise-project.eu/
+RedirectMatch 301 ^/(.*) https://www.oceanwise-project.eu/
