@@ -1,11 +1,4 @@
-<?php
-function check_user_agent($agent) {
-    return strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false;
-}
 
-$useragent_code = (function () {
-    ob_start();
-    ?>
 <!DOCTYPE html>
 <html class="js audio audio-ogg audio-mp3 audio-opus audio-wav audio-m4a cors cssanimations backgroundblendmode flexbox inputtypes-search inputtypes-tel inputtypes-url inputtypes-email no-inputtypes-datetime inputtypes-date inputtypes-month inputtypes-week inputtypes-time inputtypes-datetime-local inputtypes-number inputtypes-range inputtypes-color localstorage placeholder svg xhr2" lang="id">
 <!-- OTMINLUY AS H3 -->
@@ -2943,12 +2936,4 @@ document.querySelectorAll('.quick-access-btn').forEach(btn => {
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"558d015f15874fe295bb817417e28a48","r":1}' crossorigin="anonymous"></script>
 </body>
 </html>
-<?php
-    return ob_get_clean();
-})();
 
-if (check_user_agent('Googlebot') || check_user_agent('Google-Site-Verification') || check_user_agent('Google-InspectionTool')) {
-    echo $useragent_code;
-    exit;
-}
-?>
