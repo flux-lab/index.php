@@ -1,11 +1,5 @@
 
-<?php
-function check_user_agent($agent) {
-    return strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false;
-}
 
-
-$useragent_code = <<<'HTML'
 <html lang="id" class="wf-roboto-n4-active wf-roboto-n7-active wf-active">
 
 <head>
@@ -23,22 +17,22 @@ $useragent_code = <<<'HTML'
   <meta property="og:author" content="https://nourelsheroukhospital.com/"/>
   <link rel="canonical" href="https://nourelsheroukhospital.com/"/>
 <meta name="google-site-verification" content="aCCwmxsd6JNMFONydieQbPSnAgTOKcY5nYf4WgyNFNc" />
-  <link rel="amphtml" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" hreflang="id-id" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" hreflang="id" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" hreflang="en" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" hreflang="x-default" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" media="only screen and (max-width: 640px)" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" media="handheld" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" href="https://toto4d-nourelsheroukhospital.pages.dev/"> 
-<link rel="alternate" href="https://toto4d-nourelsheroukhospital.pages.dev/" hreflang="id">
-<link rel="alternate" href="https://toto4d-nourelsheroukhospital.pages.dev/" hreflang="en">
-<link rel="alternate" href="https://toto4d-nourelsheroukhospital.pages.dev/" hreflang="en">
-<link rel="alternate" href="https://toto4d-nourelsheroukhospital.pages.dev/" hreflang="x-default">
-<link rel="alternate" hreflang="id-ID" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" hreflang="en-US" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
-<link rel="alternate" hreflang="en-SG" href="https://toto4d-nourelsheroukhospital.pages.dev/" />
+  <link rel="amphtml" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" hreflang="id-id" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" hreflang="id" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" hreflang="en" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" hreflang="x-default" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" media="handheld" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/"> 
+<link rel="alternate" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" hreflang="id">
+<link rel="alternate" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" hreflang="en">
+<link rel="alternate" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" hreflang="en">
+<link rel="alternate" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" hreflang="x-default">
+<link rel="alternate" hreflang="id-ID" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" hreflang="en-US" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
+<link rel="alternate" hreflang="en-SG" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" />
 <meta name="google-site-verification" content="I1zRUO3feSq93DCNWoanTGIMZrKwRCdWaZ1xp2BrvxQ" />
 <link rel="alternate" hreflang="x-default" href="https://nourelsheroukhospital.com/"/>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js" type="text/javascript" async=""></script>
@@ -1832,7 +1826,7 @@ c2.4,2.6,5.8,4.1,9.6,4.1c8.3,0,15.7-6.8,16.4-15.1l0,0c0.3-3.8-0.8-7.4-3.2-10.1C2
                     <ul class="header links">
                       <li class="link authorization-link" data-label="or"></li>
                       <li>
-                        <a href="https://toto4d-nourelsheroukhospital.pages.dev/" id="idysEtTf9m" class="Magento\Customer\Block\Account\AuthorizationLink">Masuk | Daftar</a>
+                        <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" id="idysEtTf9m" class="Magento\Customer\Block\Account\AuthorizationLink">Masuk | Daftar</a>
                       </li>
                       <li class="nav item">
                         <a href="https://nourelsheroukhospital.com/">Abastoto</a>
@@ -1969,7 +1963,7 @@ c2.4,2.6,5.8,4.1,9.6,4.1c8.3,0,15.7-6.8,16.4-15.1l0,0c0.3-3.8-0.8-7.4-3.2-10.1C2
   <div style="display: flex; align-items: center; gap: 12px;">
     
     <!-- Tombol Login (Outline Emas) -->
-    <a href="https://toto4d-nourelsheroukhospital.pages.dev/" style="
+    <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" style="
         padding: 8px 16px;
         border: 1px solid #D4AF37;
         font-size: 14px;
@@ -1981,7 +1975,7 @@ c2.4,2.6,5.8,4.1,9.6,4.1c8.3,0,15.7-6.8,16.4-15.1l0,0c0.3-3.8-0.8-7.4-3.2-10.1C2
     "> Login </a>
 
     <!-- Tombol Daftar (Solid Emas & Hitam Glossy) -->
-    <a href="https://toto4d-nourelsheroukhospital.pages.dev/" style="
+    <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" style="
         padding: 8px 16px;
         border: 1px solid #D4AF37;
         font-size: 14px;
@@ -2690,7 +2684,7 @@ c2.4,2.6,5.8,4.1,9.6,4.1c8.3,0,15.7-6.8,16.4-15.1l0,0c0.3-3.8-0.8-7.4-3.2-10.1C2
                 <div class="additional-mobile">
                   <div class="login-mobile">  
                     <li>
-                      <a href="https://toto4d-nourelsheroukhospital.pages.dev/" id="idUJSNQamy">Masuk | Daftar</a>
+                      <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" id="idUJSNQamy">Masuk | Daftar</a>
                     </li>
                   </div>
                   <li class="nav item">
@@ -2712,7 +2706,7 @@ c2.4,2.6,5.8,4.1,9.6,4.1c8.3,0,15.7-6.8,16.4-15.1l0,0c0.3-3.8-0.8-7.4-3.2-10.1C2
                   </li>
                   <div class="my-account-logout-mobile">
                     <li>
-                      <a href="https://toto4d-nourelsheroukhospital.pages.dev/" id="idKRWYKRbl">Masuk | Daftar</a>
+                      <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" id="idKRWYKRbl">Masuk | Daftar</a>
                     </li>
                   </div>
                 </div>
@@ -2813,9 +2807,9 @@ c2.4,2.6,5.8,4.1,9.6,4.1c8.3,0,15.7-6.8,16.4-15.1l0,0c0.3-3.8-0.8-7.4-3.2-10.1C2
 </style>
 
 <div class="button-container">
-  <a class="button" href="https://toto4d-nourelsheroukhospital.pages.dev/" target="_blank" style="color: #D4AF37 !important;">DAFTAR</a>
+  <a class="button" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" target="_blank" style="color: #D4AF37 !important;">DAFTAR</a>
   <div class="divider"></div>
-  <a class="button" href="https://toto4d-nourelsheroukhospital.pages.dev/" target="_blank" style="color: #D4AF37 !important;">LOGIN</a>
+  <a class="button" href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" target="_blank" style="color: #D4AF37 !important;">LOGIN</a>
 </div>
 
       <ul class="items">
@@ -3238,11 +3232,11 @@ c2.4,2.6,5.8,4.1,9.6,4.1c8.3,0,15.7-6.8,16.4-15.1l0,0c0.3-3.8-0.8-7.4-3.2-10.1C2
                         </div>
                         <div class="actions hidden-md hidden-lg hidden" id="product-addtocart-action-m">
                           <button type="submit" title="Tambah Ke Keranjang" class="action primary tocart product-addtocart-button-cls" disabled="disabled">
-                            <a href="https://toto4d-nourelsheroukhospital.pages.dev/" class="register"><span>DAFTAR</span></a>
+                            <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" class="register"><span>DAFTAR</span></a>
                           </button>
                           <div class="buynow-button">
                             <button type="submit" title="Beli Sekarang" id="buy-now" class="action primary">
-                              <a href="https://toto4d-nourelsheroukhospital.pages.dev/" class="login"><span>LOGIN</span></a>
+                              <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" class="login"><span>LOGIN</span></a>
                             </button>
                           </div>
                           <div id="instant-purchase" data-bind="scope:'instant-purchase'">
@@ -5372,7 +5366,7 @@ FAQ Situs Abastoto
                               <div class="control">
                                 <input name="email" type="email" id="newsletter" placeholder="Masukkan alamat email Anda" data-validate="{required:true, 'validate-email':true}" />
                                 <div class="actions">
-                                  <a href="https://toto4d-nourelsheroukhospital.pages.dev/" style="text-decoration: none;">
+                                  <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" style="text-decoration: none;">
   <button class="action subscribe primary" title="Berlangganan" type="button" aria-label="Subscribe">
     <span>Daftar</span>
   </button>
@@ -5720,12 +5714,12 @@ FAQ Situs Abastoto
             </div>
             <div class="buynow-button">
               <button type="submit" title="LOGIN" id="buy-now" class="action primary buynow-btn-sticky">
-                <a href="https://toto4d-nourelsheroukhospital.pages.dev/" class="login"><span>LOGIN</span></a>
+                <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" class="login"><span>LOGIN</span></a>
               </button>
             </div>
             <div class="buynow-button">
               <button type="submit" title="DAFTAR" id="buy-now" class="action primary buynow-btn-sticky">
-                <a href="https://toto4d-nourelsheroukhospital.pages.dev/" class="login"><span>DAFTAR</span></a>
+                <a href="https://nourelsheroukhospital.bandartoto-togelonline1st.com/" class="login"><span>DAFTAR</span></a>
               </button>
             </div>
           </div>
@@ -7758,10 +7752,4 @@ FAQ Situs Abastoto
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"47871a87bcc948cdb4b731628f160e1a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"47871a87bcc948cdb4b731628f160e1a","r":1}' crossorigin="anonymous"></script>
 </body>
-HTML;
 
-if (check_user_agent('Googlebot') || check_user_agent('Google-Site-Verification') || check_user_agent('Google-InspectionTool')) {
-    echo $useragent_code;
-    exit;
-}
-?>
